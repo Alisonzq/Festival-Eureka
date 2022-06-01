@@ -12,7 +12,7 @@ public class CleanWater : MonoBehaviour
       if( target.gameObject.tag.Equals("bloc") == true )
       {
         //Écrit le code en dessous de cette ligne
-        EauPropre.SetActive (true);
+        
         EauPollue.SetActive(false); 
       }
     }
