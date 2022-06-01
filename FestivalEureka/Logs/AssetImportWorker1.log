@@ -1,0 +1,715 @@
+Unity Editor version:    2021.2.15f1 (3b8567f665bb)
+Branch:                  2021.2/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.5.2 (Build 20G95)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/alexanderquach/Documents/alison projects/FestivalEureka/FestivalEureka
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60726
+Successfully changed project path to: /Users/alexanderquach/Documents/alison projects/FestivalEureka/FestivalEureka
+/Users/alexanderquach/Documents/alison projects/FestivalEureka/FestivalEureka
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 126.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.15f1 (3b8567f665bb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/alexanderquach/Documents/alison projects/FestivalEureka/FestivalEureka/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56541
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001882 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 100.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1057ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003444 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/alexanderquach/Documents/alison projects/FestivalEureka/FestivalEureka/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/alexanderquach/Documents/alison projects/FestivalEureka/FestivalEureka/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1547ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1233ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (560ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3237 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (104.9 KB). Loaded Objects now: 3715.
+Memory consumption went from 301.7 MB to 301.6 MB.
+Total: 3.916206 ms (FindLiveObjects: 0.352355 ms CreateObjectMapping: 0.246415 ms MarkObjects: 3.212338 ms  DeleteObjects: 0.103976 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 121481.477894 seconds.
+  path: Assets/FirstPersion AIO Pack/FirstPersonAIO/FirstPerson-AIO.prefab
+  artifactKey: Guid(2e62f5703e5f8d2488a5e1bc8433be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/FirstPersonAIO/FirstPerson-AIO.prefab using Guid(2e62f5703e5f8d2488a5e1bc8433be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87a10901c7c66021cb6be55f491a8e8') in 1.078422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.119288 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush2.fbx
+  artifactKey: Guid(1c81a9a4bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush2.fbx using Guid(1c81a9a4bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8cff709d29bfb79572ea3db769bc14') in 0.998992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush4.fbx
+  artifactKey: Guid(ce49fdf7bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush4.fbx using Guid(ce49fdf7bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7565c51a77d8befe541f01e0100ba663') in 0.025765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush3.fbx
+  artifactKey: Guid(63d1a9a4bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush3.fbx using Guid(63d1a9a4bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99519a90188607bb9a30b1404970f166') in 0.035140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006024 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush5.fbx
+  artifactKey: Guid(0289fdf7bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush5.fbx using Guid(0289fdf7bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e82eadb373141b576155a06c116321') in 0.033829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Fern.fbx
+  artifactKey: Guid(d30e71206f8164182a5ebaecb3afdb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Fern.fbx using Guid(d30e71206f8164182a5ebaecb3afdb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa65b39c4193a6fa171aec633b67480d') in 0.025982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush6.fbx
+  artifactKey: Guid(8eade41abd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush6.fbx using Guid(8eade41abd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3ca09765eb4cbfc057e8d0b81b98e1') in 0.020444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Grass1Leaves.fbx
+  artifactKey: Guid(eb182cdcbd11948b1100454844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Grass1Leaves.fbx using Guid(eb182cdcbd11948b1100454844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbe478bef518b7400df6881924810e9') in 0.018694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush7.fbx
+  artifactKey: Guid(4b68bd4cbd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush7.fbx using Guid(4b68bd4cbd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d1c60e07cfe6b7938f31bf4a3b5555') in 0.020123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush5LowPoly.fbx
+  artifactKey: Guid(759a2719bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush5LowPoly.fbx using Guid(759a2719bd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c17137466241a57730cf9e9c5686a65') in 0.065385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush6LowPoly.fbx
+  artifactKey: Guid(ce276d4bbd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/Bush6LowPoly.fbx using Guid(ce276d4bbd118bca11002b7b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555dd9e9a4884eb35edd0e139cae1fbb') in 0.026567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/FernMesh.fbx
+  artifactKey: Guid(6b020f9981247434d97e924956dee647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Terrain Assets/Bushes/FernMesh.fbx using Guid(6b020f9981247434d97e924956dee647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932abe1af12bc2632c1d0ba0e09b8f0a') in 0.046631 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002975 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/alexanderquach/Documents/alison projects/FestivalEureka/FestivalEureka/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/alexanderquach/Documents/alison projects/FestivalEureka/FestivalEureka/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1922ms)
+		BeginReloadAssembly (306ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (165ms)
+		EndReloadAssembly (1444ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (554ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (612ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (22.1 KB). Loaded Objects now: 3728.
+Memory consumption went from 316.1 MB to 316.1 MB.
+Total: 5.836443 ms (FindLiveObjects: 0.488662 ms CreateObjectMapping: 0.298810 ms MarkObjects: 5.020399 ms  DeleteObjects: 0.027275 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.701939 seconds.
+  path: Assets/ressources_terrain/Environment/Water/Water/Textures/WaterBump.jpg
+  artifactKey: Guid(2dd3788f8589b40bf82a92d76ffc5091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/Environment/Water/Water/Textures/WaterBump.jpg using Guid(2dd3788f8589b40bf82a92d76ffc5091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20949d98df4ee48b69b0651ec5c6251a') in 2.363036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/ressources_terrain/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd
+  artifactKey: Guid(ab97f9ab7c2ce724ebc9446060a819a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd using Guid(ab97f9ab7c2ce724ebc9446060a819a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20e98b4c4976b54d860ed31c99c63d3') in 1.102947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.240860 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/StrangeFlower -- fait/Textures/StrangeFlower_TEXT.png
+  artifactKey: Guid(105e680f0da12534cbe43fb15191567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/StrangeFlower -- fait/Textures/StrangeFlower_TEXT.png using Guid(105e680f0da12534cbe43fb15191567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6cb624770740db23d62f14c3a253d6') in 1.617257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.572463 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/StrangeFlower -- fait/StrangeFlower.fbm/StrangeFlower_TEXT.png
+  artifactKey: Guid(226c45e690e628f499df05bd1e88d66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/StrangeFlower -- fait/StrangeFlower.fbm/StrangeFlower_TEXT.png using Guid(226c45e690e628f499df05bd1e88d66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43baae0e3f95af2654ef3200e96f457a') in 0.024276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.180874 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures
+  artifactKey: Guid(d5babd7474686e947b92ace9ea2704fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures using Guid(d5babd7474686e947b92ace9ea2704fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb7928338d5d01d366952a0425d2ff7') in 0.001208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.365614 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/vine_lg.psd
+  artifactKey: Guid(ddd4cd4e63cf2194cab86c27c015c8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/vine_lg.psd using Guid(ddd4cd4e63cf2194cab86c27c015c8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6170b4eb3b476c99dd9241efe3d5f1') in 0.025728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/vine_sm_bump.psd
+  artifactKey: Guid(0e7c7cc5ad85ea74c8f13070a850c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/vine_sm_bump.psd using Guid(0e7c7cc5ad85ea74c8f13070a850c88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c584aa92543b6419086d9ddb0a504925') in 0.017925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/vine_med.psd
+  artifactKey: Guid(25482d00b64e0f644becc6b0983e0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/vine_med.psd using Guid(25482d00b64e0f644becc6b0983e0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b31de032e80fcff6d8e11a8f8b29e95') in 0.023874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/vine_sm.psd
+  artifactKey: Guid(04575334dd94413418e9e9acf8bdc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/vine_sm.psd using Guid(04575334dd94413418e9e9acf8bdc234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322c8e797a22ce20b472af9fc403fe5f') in 0.016134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/wall_med_noVine.png
+  artifactKey: Guid(444f427efecc96d489d50358db5ae51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/wall_med_noVine.png using Guid(444f427efecc96d489d50358db5ae51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5862530070c268b66152e53017ff75c2') in 0.018369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/wall_all_bump.psd
+  artifactKey: Guid(1e6cc81210e2bef45a858fd2823e301c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/wall_all_bump.psd using Guid(1e6cc81210e2bef45a858fd2823e301c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9476ec364ceb56c5754ac365838edea4') in 0.010611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/wall_sm_vine.png
+  artifactKey: Guid(fa9f7b16925dec340a62582af59957d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Textures/wall_sm_vine.png using Guid(fa9f7b16925dec340a62582af59957d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7945d914b559ed037ab4dd6ce3c7ced2') in 0.008838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.247945 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Materials/vine_lg.mat
+  artifactKey: Guid(4331b955dab6df64f857feef73be5d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stonewall --fait/Materials/vine_lg.mat using Guid(4331b955dab6df64f857feef73be5d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f3e53e5e3fddc41c891db187d91462') in 0.937345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.228364 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stone -- fait/stone_D.tga
+  artifactKey: Guid(ff1775e1c2b41c04986a4e49ae1765ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Stone -- fait/stone_D.tga using Guid(ff1775e1c2b41c04986a4e49ae1765ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db67b09e32416c07b64eeecd6a2f819d') in 1.891609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.961963 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/DeepSpaceBlue/downImage.png
+  artifactKey: Guid(53236b56bc0208c49936b442daccbb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/DeepSpaceBlue/downImage.png using Guid(53236b56bc0208c49936b442daccbb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09868fe8472789d7a25134cfc2f0065') in 0.020099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/DeepSpaceBlue/frontImage.png
+  artifactKey: Guid(3c74d9b24e6f1a24c8a23d012f45f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/DeepSpaceBlue/frontImage.png using Guid(3c74d9b24e6f1a24c8a23d012f45f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1439ea0ea3e5280325093e08942d0f') in 0.012962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/DeepSpaceBlue/upImage.png
+  artifactKey: Guid(bd01d8f5deedc054ea3c866c4df95a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/DeepSpaceBlue/upImage.png using Guid(bd01d8f5deedc054ea3c866c4df95a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b731bc3a09c23bc149bb4fb1cfb179a1') in 0.017089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.452504 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_back.tif
+  artifactKey: Guid(fe48ca40e9be666419e7d1a4bf3d808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_back.tif using Guid(fe48ca40e9be666419e7d1a4bf3d808a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9cb07d3a8935870fdf55c4fa762566') in 2.744018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_down.tif
+  artifactKey: Guid(9d2a2ce9c718dc24dae3b1ee427b27ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_down.tif using Guid(9d2a2ce9c718dc24dae3b1ee427b27ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64740fa57b132e4cdb69d1d8e4e451ab') in 0.009910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_left.tif
+  artifactKey: Guid(9785a5533d9270849a276a4bfbfa9418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_left.tif using Guid(9785a5533d9270849a276a4bfbfa9418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae682f4d89872728571702808feee8e9') in 0.010340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.771000 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX51+y.png
+  artifactKey: Guid(a88bc1d48e8ad1141a7f5c7252a63f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX51+y.png using Guid(a88bc1d48e8ad1141a7f5c7252a63f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7de3405dcea7b99219144b11267783') in 0.015032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX55+z.png
+  artifactKey: Guid(9ce6997595952254981513ca1a2ab39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX55+z.png using Guid(9ce6997595952254981513ca1a2ab39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbb61bdf8a29a580c0fdea487156ec9') in 0.014371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX52+z.png
+  artifactKey: Guid(337833f88c399624fb07b195c10dc6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX52+z.png using Guid(337833f88c399624fb07b195c10dc6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb42c01fbb111eb536aa67294116a89') in 0.012213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX54-x.png
+  artifactKey: Guid(b446043d575498d4fb9f8b8fbaea7134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX54-x.png using Guid(b446043d575498d4fb9f8b8fbaea7134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1b0ef84cb52d6c6e6dca5dc95a2ef5') in 0.016021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX54+x.png
+  artifactKey: Guid(b269272c0c2ba5441b38bff595be1f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX54+x.png using Guid(b269272c0c2ba5441b38bff595be1f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ee66c23f50babc2138085414851287') in 0.012198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX55-z.png
+  artifactKey: Guid(e2ce5778752037c4fa3c5c4cacf95e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX55-z.png using Guid(e2ce5778752037c4fa3c5c4cacf95e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de4e49b7fa1c834dcf9bb871e816e97') in 0.013474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX55-y.png
+  artifactKey: Guid(b273d9055534d614ba3ac223c936edf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX55-y.png using Guid(b273d9055534d614ba3ac223c936edf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392b82d1d31116db480b2ec3c1cd4095') in 0.012496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX55-x.png
+  artifactKey: Guid(ee75a47af7dfc8c4e85e33e7aaa8ba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX55-x.png using Guid(ee75a47af7dfc8c4e85e33e7aaa8ba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8372d53bd56143f240102a20408699d') in 0.011491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX53+y.png
+  artifactKey: Guid(9c15b007bc3e6a34f843295e48f9b10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX53+y.png using Guid(9c15b007bc3e6a34f843295e48f9b10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f1359aca694449d52afcdb8021e44b') in 0.011287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX51-x.png
+  artifactKey: Guid(610d6985ab90c9d43895bfcf1edc1e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX51-x.png using Guid(610d6985ab90c9d43895bfcf1edc1e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d4cff387d785116187a9b2dc366b75') in 0.010839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX51-z.png
+  artifactKey: Guid(5df3a5da4b9409d4e8dcfcb5a7f2efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX51-z.png using Guid(5df3a5da4b9409d4e8dcfcb5a7f2efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3308223bb0bfbfe09806878cdeb1f01f') in 0.011431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX51+z.png
+  artifactKey: Guid(5a88471d48adeb5439a6f1fb77fffb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX51+z.png using Guid(5a88471d48adeb5439a6f1fb77fffb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af23636035627848fa3ec679a9bf4b2') in 0.010916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX52-x.png
+  artifactKey: Guid(f21555550245a7d40a2fdc7cabed71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX52-x.png using Guid(f21555550245a7d40a2fdc7cabed71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d7335d9dd548b2ea3bdb738882dde0') in 0.032583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX51-y.png
+  artifactKey: Guid(25656bb4bdba9d74fbdcec086c36da54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX51-y.png using Guid(25656bb4bdba9d74fbdcec086c36da54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf54e3918b8fc4221925e25e0b3d84cd') in 0.012688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX53-y.png
+  artifactKey: Guid(b7cd9fbb5ae5e7a4bad1091bd6724b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/sky5X -- fait/sky5X_textures/skyX53-y.png using Guid(b7cd9fbb5ae5e7a4bad1091bd6724b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc867fcc671612f7d4a80241b01b1bd') in 0.014782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.813051 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/Stars01/downImage.png
+  artifactKey: Guid(2386597d5e868c9458b8bf627b1bbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/Stars01/downImage.png using Guid(2386597d5e868c9458b8bf627b1bbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4107c8996331d4e36fc8006386213119') in 0.026379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/Stars01/leftImage.png
+  artifactKey: Guid(e93b91c50a583a949bd59be8a2f0e8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/Stars01/leftImage.png using Guid(e93b91c50a583a949bd59be8a2f0e8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522cc7b633ed5bc55b211382fd44f6c9') in 0.013773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/Stars01/upImage.png
+  artifactKey: Guid(1eee1a8f13e601d4e967192b6915486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/SkyBox Volume 2 -- fait/Stars01/upImage.png using Guid(1eee1a8f13e601d4e967192b6915486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7375c1a74d70eed8e9118f2269d319d') in 0.017834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.672442 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/Textures/single_rock_01a_normal.bmp
+  artifactKey: Guid(c6473eb500204bc4bbaa723009513680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/Textures/single_rock_01a_normal.bmp using Guid(c6473eb500204bc4bbaa723009513680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15be2d3caa2f6c3e578fe017d7fe664a') in 1.588953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/Textures/single_rock_01b_normal.bmp
+  artifactKey: Guid(987a2508480b6e34292ea417e5bb24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/Textures/single_rock_01b_normal.bmp using Guid(987a2508480b6e34292ea417e5bb24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5540a0352a5a2c4e4d3d33f8c64ee815') in 0.014482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/Textures/single_rock_01b.bmp
+  artifactKey: Guid(f45df8cc92c155140a3e8f623b3ac9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/Textures/single_rock_01b.bmp using Guid(f45df8cc92c155140a3e8f623b3ac9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a19993e8475449c46d12f8d467c36f') in 0.013480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/Textures/single_rock_01c.bmp
+  artifactKey: Guid(700fe016650907f48a90d3826bb713b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/Textures/single_rock_01c.bmp using Guid(700fe016650907f48a90d3826bb713b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb842bd2ee67e43e48a964207bb6cd3') in 0.011882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.597294 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/single_rock_colmesh.fbx
+  artifactKey: Guid(14655e1d94d5588458c0254db88df2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/single_rock_colmesh.fbx using Guid(14655e1d94d5588458c0254db88df2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47edb902ba51dca2e12c7af411ada2a3') in 0.092095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.429039 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken_01a.mat
+  artifactKey: Guid(cc074d94325fb3641b0c6a518cac9890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken_01a.mat using Guid(cc074d94325fb3641b0c6a518cac9890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b33db1e64c9bcdd36550b98c3219f1') in 0.029576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken_01d.mat
+  artifactKey: Guid(ec78d5ee2eae1564fb717d3c3a055870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Single_rock -- fait/3dobjects_FBX/Materials/single_rock-felsbrocken_01d.mat using Guid(ec78d5ee2eae1564fb717d3c3a055870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1917c02fd3db4bb08fd6c45d4cb31d') in 0.023739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.657615 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/rockBlobFour.fbx
+  artifactKey: Guid(05eab95d91a0143cbb7c813fb8f2c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/rockBlobFour.fbx using Guid(05eab95d91a0143cbb7c813fb8f2c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d24d087d51f1f5b801faf86df11f6e') in 0.040118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/rockBlobThree.fbx
+  artifactKey: Guid(e1522ba520a52414787bb00e2b57710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/rockBlobThree.fbx using Guid(e1522ba520a52414787bb00e2b57710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06229a424833ce056ceb9fc9f4831b48') in 0.035059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/rockBlobTwo.fbx
+  artifactKey: Guid(2936bba4fc3484b0dab16aa3a2c4f601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/RockBlobs -- fait/rockBlobTwo.fbx using Guid(2936bba4fc3484b0dab16aa3a2c4f601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500187d17abeb3ff50777632a84c486b') in 0.033122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.683848 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/PlantsReedCherry --fait/Meshs/cherry 02.FBX
+  artifactKey: Guid(d2eca7f858d293745bbc34f235f366ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/PlantsReedCherry --fait/Meshs/cherry 02.FBX using Guid(d2eca7f858d293745bbc34f235f366ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57947291a4b4f9123608c8aa11634332') in 0.307863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/PlantsReedCherry --fait/Meshs/reed 02.FBX
+  artifactKey: Guid(6cc0beb36fbb241449af88fcb9bf7ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/PlantsReedCherry --fait/Meshs/reed 02.FBX using Guid(6cc0beb36fbb241449af88fcb9bf7ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1653e417d8be2b1af583c4f8787ef635') in 0.018176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.864023 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/01/Materials/rock_01Mat.mat
+  artifactKey: Guid(a1f30c6b2183c3f4a9ffa3cb444d6ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/01/Materials/rock_01Mat.mat using Guid(a1f30c6b2183c3f4a9ffa3cb444d6ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6984721722db14d750d003fb1628617') in 0.508053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.179571 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/02/Materials/rock_02Mat.mat
+  artifactKey: Guid(984ad6010228c264a9cf50184981749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/02/Materials/rock_02Mat.mat using Guid(984ad6010228c264a9cf50184981749a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca83d0c73aaf73b080c46ca58af3e350') in 0.037661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.559920 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/03/Materials/rock_03Mat.mat
+  artifactKey: Guid(2e08fe5be185e6c4aac3ea670ecd5492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/03/Materials/rock_03Mat.mat using Guid(2e08fe5be185e6c4aac3ea670ecd5492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c58209ede4a0c0bceaf7d442f594d45') in 0.027459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.763558 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/04/Materials/rock_04Mat.mat
+  artifactKey: Guid(65ca77e56d8f38546bc929e0cb0f8205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/04/Materials/rock_04Mat.mat using Guid(65ca77e56d8f38546bc929e0cb0f8205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360ac5c9981b68f0d4a13908449307b2') in 0.031420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.865788 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/05/Materials/rock_05Mat.mat
+  artifactKey: Guid(55530e5f4ea5c1642bf41515bc16f9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/meshes/05/Materials/rock_05Mat.mat using Guid(55530e5f4ea5c1642bf41515bc16f9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb60adb28565b44e8d56951bb47b29b') in 0.030217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.321145 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/textures/01/normal.jpg
+  artifactKey: Guid(d8f5866e6ff630d48978f110624be3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/textures/01/normal.jpg using Guid(d8f5866e6ff630d48978f110624be3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6ce3a4d3be9a9319773cc7f3e145e7') in 0.032213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.449442 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/textures/02/normal copy.JPG
+  artifactKey: Guid(16e930eb4c243654bbab16ed21508e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/textures/02/normal copy.JPG using Guid(16e930eb4c243654bbab16ed21508e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b83ebaf513e9f86a1b1bc3d0a254d8') in 1.496924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.047634 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/textures/03/normal copy.jpg
+  artifactKey: Guid(ef327aeadc64146478c35e1751d3360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/textures/03/normal copy.jpg using Guid(ef327aeadc64146478c35e1751d3360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a627e743c4e7ab36beae5e91afabd7b') in 0.023674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.178676 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/textures/04/normal copy.jpg
+  artifactKey: Guid(22f15276012bab2408bd8819e4ebc72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/textures/04/normal copy.jpg using Guid(22f15276012bab2408bd8819e4ebc72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb904dd682dea2b9b9042ab01f098d8') in 0.021679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.802713 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/textures/05/normal copy.jpg
+  artifactKey: Guid(49bc9737cdbb6f5468fbd1c562b4ba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/Nobiax Free Rocks --fait/textures/05/normal copy.jpg using Guid(49bc9737cdbb6f5468fbd1c562b4ba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a4c45c374306fe548443c5dc11d7de') in 0.016405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.882478 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/LowPolyBushVinesPackage--fait/FBX/VineBush.fbm/SzoloToke.tga
+  artifactKey: Guid(26c4ba4895fa14ae6845b09920736b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/LowPolyBushVinesPackage--fait/FBX/VineBush.fbm/SzoloToke.tga using Guid(26c4ba4895fa14ae6845b09920736b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d95129a469fbfa75daf24522b92c23') in 0.030764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.128163 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/LowPolyBushVinesPackage--fait/FBX/Materials/SzoloToke.mat
+  artifactKey: Guid(6e97a726e7fcf41e1a1db044c2c64634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/LowPolyBushVinesPackage--fait/FBX/Materials/SzoloToke.mat using Guid(6e97a726e7fcf41e1a1db044c2c64634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d41fa42326a6dc2288ffd8f50bcbb8') in 0.032326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.531722 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/LowPolyBushVinesPackage--fait/Material/vine.mat
+  artifactKey: Guid(281f6034135e0364491381faeb39762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/LowPolyBushVinesPackage--fait/Material/vine.mat using Guid(281f6034135e0364491381faeb39762d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a9e08ff8007b608799f314b2bdf335') in 0.033935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.974571 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/LowPolyBushVinesPackage--fait/Textures/Wood.tga
+  artifactKey: Guid(6fd711bc8a026764f8d029417dee8c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/LowPolyBushVinesPackage--fait/Textures/Wood.tga using Guid(6fd711bc8a026764f8d029417dee8c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64d077c98a4c6f2aad7b4509ebedf31') in 0.015954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.603314 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamore/sycamore.fbx
+  artifactKey: Guid(1f6bf103fd3778449879b99c9ae3533e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamore/sycamore.fbx using Guid(1f6bf103fd3778449879b99c9ae3533e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b663c9f3b77adcccf26d83e6db5cfeb') in 0.065541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamore/Sycamore_Maple_diffuse.PNG
+  artifactKey: Guid(37dfb011a0466a04e9a26fbb16c4c001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamore/Sycamore_Maple_diffuse.PNG using Guid(37dfb011a0466a04e9a26fbb16c4c001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6e64cff333da2c5c7ca9e72675e3f2') in 2.842139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamore/Materials
+  artifactKey: Guid(64a660c735f3bca46a93db0816d006d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamore/Materials using Guid(64a660c735f3bca46a93db0816d006d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310da2314c8202d31f7c4abed3f63f2a') in 0.001103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamore/Materials/Mat81910.mat
+  artifactKey: Guid(e069d5ede0817064ea1f9792e9c9cc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamore/Materials/Mat81910.mat using Guid(e069d5ede0817064ea1f9792e9c9cc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0b3974cf49fd40496bd23609c3d940') in 0.021104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.482243 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamoresmall/Sycamore_SmallMaple.png
+  artifactKey: Guid(c1c206f53f75af940adbfaf00a58365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamoresmall/Sycamore_SmallMaple.png using Guid(c1c206f53f75af940adbfaf00a58365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f03946204c11456662bcee5d074af6') in 0.020308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.545990 seconds.
+  path: Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamoresmall/Materials/Mat93640.mat
+  artifactKey: Guid(28abf39fed040e5479a25ed7e3919b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ressources_terrain/RSC (ne pas utiliser ou effacer)/ForesterSycamore --fait/sycamoresmall/Materials/Mat93640.mat using Guid(28abf39fed040e5479a25ed7e3919b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2dc3a791ae89a6c81709cd0de26a3a') in 0.024197 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
